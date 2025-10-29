@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { AdminAnalytics } from '../services/adminService.ts';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { PlatformAnalytics } from '../types';
+import { PlatformAnalytics } from '../types.ts';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { UsersIcon, MessageIcon, AnalyticsIcon, CreditCardIcon } from './Icons';
+import { UsersIcon, MessageIcon, AnalyticsIcon, CreditCardIcon } from './Icons.tsx';
 
 const AnalyticsCard: React.FC<{ title: string; value: string | number; icon: React.ReactNode; }> = ({ title, value, icon }) => (
     <div className="bg-bg-primary p-4 rounded-xl border border-border-light shadow-md">

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { Assignment } from '../types';
+import { Assignment } from '../types.ts';
 import FilterDropdown from './FilterDropdown.tsx';
 import CreateAssignmentModal from './CreateAssignmentModal.tsx';
 import AssignmentCard from './AssignmentCard.tsx';
 import AssignmentStats from './AssignmentStats.tsx';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { AddCircleIcon } from './Icons';
+import { AddCircleIcon } from './Icons.tsx';
 
 interface AssignmentCenterProps {
     assignments: Assignment[];

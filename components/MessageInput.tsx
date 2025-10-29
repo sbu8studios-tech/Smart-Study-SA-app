@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { SendIcon } from './Icons';
+import { SendIcon } from './Icons.tsx';
 
 interface MessageInputProps {
   onSendMessage: (message: string) => void;

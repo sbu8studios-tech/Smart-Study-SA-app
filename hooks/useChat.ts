@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { ChatMessage, MessageAuthor, Subject, FileAttachment } from '../types';
+import { ChatMessage, MessageAuthor, Subject, FileAttachment } from '../types.ts';
 import { getInitialMessageForSubject } from '../constants.ts';
 import { getTutorResponse, translateText } from '../services/geminiService.ts';
 

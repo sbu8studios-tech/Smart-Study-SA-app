@@ -1,6 +1,6 @@
 import React from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { MessageIcon, UsersIcon } from './Icons';
+import { MessageIcon, UsersIcon } from './Icons.tsx';
 
 const CommunicationCenter: React.FC = () => {
     const mockMessages = [

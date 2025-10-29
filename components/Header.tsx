@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { User } from '../types';
+import { User } from '../types.ts';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { SunIcon, MoonIcon, BackIcon, UploadIcon, LogoutIcon } from './Icons';
+import { SunIcon, MoonIcon, BackIcon, UploadIcon, LogoutIcon } from './Icons.tsx';
 
 interface HeaderProps {
   title: string;

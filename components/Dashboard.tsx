@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { Grade, Subject } from '../types';
+import { Grade, Subject } from '../types.ts';
 import { CURRICULUM_DATA, ALL_GRADES, FET_STREAMS } from '../constants.ts';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { BackIcon, ChevronRightIcon } from './Icons';
+import { BackIcon, ChevronRightIcon } from './Icons.tsx';
 
 interface DashboardProps {
   onSelectSubject: (subject: Subject) => void;

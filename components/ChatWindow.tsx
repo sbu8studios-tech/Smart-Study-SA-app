@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import type { ChatMessage } from '../types';
+import type { ChatMessage } from '../types.ts';
 import MessageBubble from './MessageBubble.tsx';
 import TypingIndicator from './TypingIndicator.tsx';
 import SuggestedQuestions from './SuggestedQuestions.tsx';

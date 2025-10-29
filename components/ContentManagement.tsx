@@ -1,6 +1,6 @@
 import React from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { LibraryIcon, BookOpenIcon } from './Icons';
+import { LibraryIcon, BookOpenIcon } from './Icons.tsx';
 
 const ContentManagement: React.FC = () => {
   return (

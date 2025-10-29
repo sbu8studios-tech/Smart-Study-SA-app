@@ -1,6 +1,6 @@
 import React from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { SchoolIcon } from './Icons';
+import { SchoolIcon } from './Icons.tsx';
 
 const SchoolManagement: React.FC = () => {
   return (

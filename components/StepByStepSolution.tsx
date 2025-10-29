@@ -1,8 +1,8 @@
 import React from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import type { Step } from '../types';
+import type { Step } from '../types.ts';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { ChevronDownIcon } from './Icons';
+import { ChevronDownIcon } from './Icons.tsx';
 
 interface StepByStepSolutionProps {
   steps: Step[];

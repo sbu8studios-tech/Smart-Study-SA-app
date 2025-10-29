@@ -1,5 +1,5 @@
 {
-  "name": "SmartStudy SA",
+  "name": "Copy 2 of SmartStudy SA",
   "description": "A mobile-first AI tutoring chatbot designed for the South African CAPS curriculum, offering step-by-step help in various subjects. This MVP focuses on the core chat experience for Mathematics.",
   "requestFramePermissions": [
     "microphone"

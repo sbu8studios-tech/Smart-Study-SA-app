@@ -1,6 +1,6 @@
 import { GoogleGenAI, GenerateContentResponse, Part, Type } from "@google/genai";
 // FIX: Corrected import path for types.ts to be a relative path.
-import { ChatMessage, MessageAuthor, Subject } from '../types';
+import { ChatMessage, MessageAuthor, Subject } from '../types.ts';
 import { TUTOR_PROMPT_TEMPLATE_BASE, FINE_TUNING_EXAMPLES } from '../constants.ts';
 
 // Per instructions, API_KEY is available as process.env.API_KEY

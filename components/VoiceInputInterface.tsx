@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { CloseIcon, MicrophoneIcon, ListeningIcon, StopIcon, BulbIcon } from './Icons';
+import { CloseIcon, MicrophoneIcon, ListeningIcon, StopIcon, BulbIcon } from './Icons.tsx';
 
 interface VoiceInputInterfaceProps {
     onClose: () => void;

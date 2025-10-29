@@ -1,6 +1,6 @@
 import React, { createContext, useState, useContext, ReactNode } from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { Subject, User } from '../types';
+import { Subject, User } from '../types.ts';
 
 interface UserContextType {
   currentSubject: Subject | null;

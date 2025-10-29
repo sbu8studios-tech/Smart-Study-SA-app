@@ -1,6 +1,6 @@
 import React from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { DocumentTextIcon, ShieldIcon } from './Icons';
+import { DocumentTextIcon, ShieldIcon } from './Icons.tsx';
 
 const ReportsCompliance: React.FC = () => {
     return (

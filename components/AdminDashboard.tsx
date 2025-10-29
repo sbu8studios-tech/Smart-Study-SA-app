@@ -1,16 +1,16 @@
 // FIX: Replaced placeholder content with a full Admin Dashboard component implementation.
 import React, { useState } from 'react';
-import { MOCK_USERS } from '../mockData';
-import { AdminStats, User } from '../types';
-import SystemOverview from './SystemOverview';
-import UserManagement from './UserManagement';
-import SchoolManagement from './SchoolManagement';
-import ContentManagement from './ContentManagement';
-import BillingSubscriptions from './BillingSubscriptions';
-import AdvancedAnalytics from './AdvancedAnalytics';
-import ReportsCompliance from './ReportsCompliance';
-import SystemSettings from './SystemSettings';
-import { DashboardIcon, UsersIcon, SchoolIcon, LibraryIcon, CreditCardIcon, AnalyticsIcon, DocumentTextIcon, SettingsIcon } from './Icons';
+import { MOCK_USERS } from '../mockData.ts';
+import { AdminStats, User } from '../types.ts';
+import SystemOverview from './SystemOverview.tsx';
+import UserManagement from './UserManagement.tsx';
+import SchoolManagement from './SchoolManagement.tsx';
+import ContentManagement from './ContentManagement.tsx';
+import BillingSubscriptions from './BillingSubscriptions.tsx';
+import AdvancedAnalytics from './AdvancedAnalytics.tsx';
+import ReportsCompliance from './ReportsCompliance.tsx';
+import SystemSettings from './SystemSettings.tsx';
+import { DashboardIcon, UsersIcon, SchoolIcon, LibraryIcon, CreditCardIcon, AnalyticsIcon, DocumentTextIcon, SettingsIcon } from './Icons.tsx';
 
 type AdminView = 'overview' | 'users' | 'schools' | 'content' | 'billing' | 'analytics' | 'reports' | 'settings';
 

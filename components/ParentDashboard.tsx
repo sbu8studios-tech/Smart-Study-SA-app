@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 // FIX: Corrected import path for mockData.ts to be a relative path.
-import { MOCK_STUDENT_PROFILES, MOCK_PROGRESS_DATA } from '../mockData';
+import { MOCK_STUDENT_PROFILES, MOCK_PROGRESS_DATA } from '../mockData.ts';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { StudentProfile } from '../types';
+import { StudentProfile } from '../types.ts';
 import ParentNavigation from './ParentNavigation.tsx';
 import ParentOverview from './ParentOverview.tsx';
 import AcademicDetails from './AcademicDetails.tsx';

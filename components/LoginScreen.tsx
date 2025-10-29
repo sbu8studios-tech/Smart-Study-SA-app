@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { useUser } from '../contexts/UserContext.tsx';
 import { DEFAULT_LOGO_URL } from '../constants.ts';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { User, UserRole } from '../types';
+import { User, UserRole } from '../types.ts';
 import EmailLoginForm from './EmailLoginForm.tsx';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { GoogleIcon, AppleIcon, FacebookIcon, MicrosoftIcon, ShieldIcon, GuestIcon, EmailIcon, PhoneIcon, SocialTabIcon, EmailTabIcon, PhoneTabIcon } from './Icons';
+import { GoogleIcon, AppleIcon, FacebookIcon, MicrosoftIcon, ShieldIcon, GuestIcon, EmailIcon, PhoneIcon, SocialTabIcon, EmailTabIcon, PhoneTabIcon } from './Icons.tsx';
 
 // --- Sub-components for the new Login Screen ---
 

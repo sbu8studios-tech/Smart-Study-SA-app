@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 // FIX: Corrected import path for mockData.ts to be a relative path.
-import { MOCK_CLASSROOMS } from '../mockData';
+import { MOCK_CLASSROOMS } from '../mockData.ts';
 import { TeacherAnalytics } from '../services/teacherService.ts';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { Classroom } from '../types';
+import { Classroom } from '../types.ts';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { TrendingUpIcon, AnalyticsIcon } from './Icons';
+import { TrendingUpIcon, AnalyticsIcon } from './Icons.tsx';
 
 const BarChart: React.FC<{ data: Record<string, number> }> = ({ data }) => {
     // FIX: Handle empty data array by providing a default of 0 to Math.max

@@ -1,7 +1,7 @@
 import React, { useState, useCallback, ReactNode } from 'react';
 import { FileUploadService } from '../services/fileUploadService.ts';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { CloudUploadIcon, CloseIcon, FileIcon, ImageIcon } from './Icons';
+import { CloudUploadIcon, CloseIcon, FileIcon, ImageIcon } from './Icons.tsx';
 
 interface FileUploadInterfaceProps {
   uploadedFiles: File[];

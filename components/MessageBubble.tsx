@@ -1,10 +1,10 @@
 import React from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { ChatMessage, MessageAuthor, FileAttachment as FileAttachmentType } from '../types';
+import { ChatMessage, MessageAuthor, FileAttachment as FileAttachmentType } from '../types.ts';
 import { SOUTH_AFRICAN_LANGUAGES } from '../constants.ts';
 import StepByStepSolution from './StepByStepSolution.tsx';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { TranslateIcon, FileIcon, ImageIcon } from './Icons';
+import { TranslateIcon, FileIcon, ImageIcon } from './Icons.tsx';
 
 interface MessageBubbleProps {
   message: ChatMessage;

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { EmailIcon, LockIcon } from './Icons';
+import { EmailIcon, LockIcon } from './Icons.tsx';
 
 // --- Reusable Form Components (Scoped to this file for simplicity) ---
 

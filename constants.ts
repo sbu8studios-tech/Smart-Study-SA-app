@@ -1,5 +1,5 @@
 // FIX: Corrected import path for types.ts to be a relative path.
-import { ChatMessage, MessageAuthor, Curriculum, Grade } from './types';
+import { ChatMessage, MessageAuthor, Curriculum, Grade } from './types.ts';
 
 export const DEFAULT_LOGO_URL = 'data:image/svg+xml,%3csvg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M50 90C65 90 85 75 85 60C85 45 65 50 50 65C35 50 15 45 15 60C15 75 35 90 50 90Z" fill="%2334A853"/%3e%3cpath d="M50 25L5 45L50 65L95 45L50 25Z" fill="%231A73E8"/%3e%3cpath d="M75 40V20C75 17.2386 72.7614 15 70 15H65" stroke="%23FF6B00" stroke-width="4" stroke-linecap="round"/%3e%3cpath d="M75 40L78 45" stroke="%23FF6B00" stroke-width="4" stroke-linecap="round"/%3e%3cpath d="M75 40L72 45" stroke="%23FF6B00" stroke-width="4" stroke-linecap="round"/%3e%3c/svg%3e';
 

@@ -2,9 +2,9 @@
 // It will manage fetching and updating data about a student's academic progress.
 
 // FIX: Corrected import path for mockData.ts to be a relative path.
-import { MOCK_SUBMISSIONS } from '../mockData';
+import { MOCK_SUBMISSIONS } from '../mockData.ts';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { StudentSubmission, AcademicReport, AIInsight } from '../types';
+import { StudentSubmission, AcademicReport, AIInsight } from '../types.ts';
 
 // In a real application, these functions would make API calls to a secure backend.
 // For now, they simulate the expected behavior and return mock data.

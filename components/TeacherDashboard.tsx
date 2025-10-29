@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 // FIX: Corrected import path for mockData.ts to be a relative path.
-import { MOCK_CLASSROOMS, MOCK_ASSIGNMENTS, MOCK_ACTIVITIES } from '../mockData';
+import { MOCK_CLASSROOMS, MOCK_ASSIGNMENTS, MOCK_ACTIVITIES } from '../mockData.ts';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { Classroom, Assignment, Activity } from '../types';
+import { Classroom, Assignment, Activity } from '../types.ts';
 import { 
     DashboardIcon, UsersIcon, ClipboardListIcon, AnalyticsIcon, LibraryIcon, MessageIcon, 
     TrendingUpIcon, AddCircleIcon, CampaignIcon, CheckBadgeIcon, CalendarIcon, GradingIcon, AssessmentIcon 
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-} from './Icons';
+} from './Icons.tsx';
 import AnalyticsDashboard from './AnalyticsDashboard.tsx';
 import ResourceLibrary from './ResourceLibrary.tsx';
 import CommunicationCenter from './CommunicationCenter.tsx';

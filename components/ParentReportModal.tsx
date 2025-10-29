@@ -1,8 +1,8 @@
 import React from 'react';
 // FIX: Corrected import path for types.ts to be a relative path.
-import { StudentProfile, AcademicReport, AIInsight } from '../types';
+import { StudentProfile, AcademicReport, AIInsight } from '../types.ts';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { CloseIcon, AcademicCapIcon, BulbIcon } from './Icons';
+import { CloseIcon, AcademicCapIcon, BulbIcon } from './Icons.tsx';
 
 interface ParentReportModalProps {
     isOpen: boolean;

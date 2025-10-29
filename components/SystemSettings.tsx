@@ -1,6 +1,6 @@
 import React from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { SettingsIcon } from './Icons';
+import { SettingsIcon } from './Icons.tsx';
 
 const SystemSettings: React.FC = () => {
     return (

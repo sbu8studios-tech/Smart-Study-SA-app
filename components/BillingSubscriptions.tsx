@@ -1,6 +1,6 @@
 import React from 'react';
 // FIX: Corrected import path for Icons.tsx to be a relative path.
-import { CreditCardIcon } from './Icons';
+import { CreditCardIcon } from './Icons.tsx';
 
 const BillingSubscriptions: React.FC = () => {
     const plans = [
