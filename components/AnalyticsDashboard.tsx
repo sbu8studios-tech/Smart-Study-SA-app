@@ -8,8 +8,7 @@ import { Classroom } from '../types.ts';
 import { TrendingUpIcon, AnalyticsIcon } from './Icons.tsx';
 
 const BarChart: React.FC<{ data: Record<string, number> }> = ({ data }) => {
-    // FIX: Handle empty data array by providing a default of 0 to Math.max
-    // and assert type for Object.values to satisfy TypeScript.
+    // FIX: The values from Object.values may be typed as unknown, so we cast to numbers.
     const maxValue = Math.max(0, ...Object.values(data) as number[]);
     const grades = ['A', 'B', 'C', 'D', 'F']; // Ensure specific order
 

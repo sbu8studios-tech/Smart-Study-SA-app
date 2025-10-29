@@ -63,7 +63,9 @@ const EnhancedChatInput: React.FC<EnhancedChatInputProps> = ({ onSendMessage, is
     const handleVoiceSend = (transcript: string) => {
       setInputMode('text');
       if (transcript.trim() && !isLoading) {
-          onSendMessage(transcript);
+          onSendMessage(transcript, uploadedFiles);
+          setText('');
+          setUploadedFiles([]);
       }
     };
     
