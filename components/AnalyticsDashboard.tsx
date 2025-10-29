@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
-// FIX: Corrected import path for mockData.ts to be a relative path.
 import { MOCK_CLASSROOMS } from '../mockData.ts';
 import { TeacherAnalytics } from '../services/teacherService.ts';
-// FIX: Corrected import path for types.ts to be a relative path.
 import { Classroom } from '../types.ts';
-// FIX: Corrected import path for Icons.tsx to be a relative path.
 import { TrendingUpIcon, AnalyticsIcon } from './Icons.tsx';
 
 const BarChart: React.FC<{ data: Record<string, number> }> = ({ data }) => {
-    // FIX: The values from Object.values may be typed as unknown, so we cast to numbers.
-    const maxValue = Math.max(0, ...Object.values(data) as number[]);
+    // FIX: Cast Object.values(data) to number[] to satisfy Math.max which expects number arguments.
+    const maxValue = Math.max(0, ...(Object.values(data) as number[]));
     const grades = ['A', 'B', 'C', 'D', 'F']; // Ensure specific order
 
     return (

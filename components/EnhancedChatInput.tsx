@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-// FIX: Corrected import path for Icons.tsx to be a relative path.
 import { SendIcon, VoiceSearchIcon, AttachmentIcon, KeyboardIcon, CloseIcon } from './Icons.tsx';
 import VoiceInputInterface from './VoiceInputInterface.tsx';
 import FileUploadInterface from './FileUploadInterface.tsx';
@@ -62,7 +61,7 @@ const EnhancedChatInput: React.FC<EnhancedChatInputProps> = ({ onSendMessage, is
     
     const handleVoiceSend = (transcript: string) => {
       setInputMode('text');
-      if (transcript.trim() && !isLoading) {
+      if ((transcript.trim() || uploadedFiles.length > 0) && !isLoading) {
           onSendMessage(transcript, uploadedFiles);
           setText('');
           setUploadedFiles([]);

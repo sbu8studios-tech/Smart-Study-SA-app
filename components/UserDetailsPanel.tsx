@@ -13,7 +13,7 @@ const UserDetailsPanel: React.FC<UserDetailsPanelProps> = ({ user, onClose }) =>
     }
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-panel-backdrop" onClick={onClose}>
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-modal" onClick={onClose}>
             <div
                 className="fixed top-0 right-0 h-full w-full max-w-md bg-bg-primary shadow-xl animate-slide-in-right"
                 onClick={e => e.stopPropagation()}

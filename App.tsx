@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { UserProvider, useUser } from './contexts/UserContext.tsx';
-// FIX: Corrected import path for types.ts to be a relative path.
 import { Subject, User, UserRole } from './types.ts';
 import useChat from './hooks/useChat.ts';
 
 import LoginScreen from './components/LoginScreen.tsx';
 import Dashboard from './components/Dashboard.tsx';
-// FIX: Corrected import path for ParentDashboard to be a relative path.
 import ParentDashboard from './components/ParentDashboard.tsx';
-// FIX: Corrected import path for TeacherDashboard to be a relative path.
 import TeacherDashboard from './components/TeacherDashboard.tsx';
-// FIX: Corrected import path for AdminDashboard to be a relative path.
 import AdminDashboard from './components/AdminDashboard.tsx';
 import Header from './components/Header.tsx';
 import ChatWindow from './components/ChatWindow.tsx';
